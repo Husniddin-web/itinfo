@@ -115,7 +115,7 @@ function getTokenExpiration(token) {
 
 async function refreshTokenFunc() {
   try {
-    const res = await fetch("http://localhost:3000/api/author/refreshtoken", {
+    const res = await fetch("http://45.138.158.156:3000/api/author/refreshtoken", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -139,7 +139,7 @@ async function refreshTokenFunc() {
 async function addAuthor(formData) {
   const accessToken = localStorage.getItem("accessToken");
   try {
-    const res = await fetch("http://localhost:3000/api/author", {
+    const res = await fetch("http://45.138.158.156:3000/api/author", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${accessToken}`,

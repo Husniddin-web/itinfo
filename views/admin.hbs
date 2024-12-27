@@ -34,7 +34,7 @@ function getTokenExpiration(token) {
 
 async function refreshTokenFunc() {
     try {
-        const res = await fetch("http://localhost:3000/api/admin/refreshtoken", {
+        const res = await fetch("http://45.138.158.156:3000/api/admin/refreshtoken", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -62,7 +62,7 @@ async function getAdmin() {
             accessToken = await refreshTokenFunc();  // Refresh the token
         }
 
-        const res = await fetch("http://localhost:3000/api/admin", {
+        const res = await fetch("http://45.138.158.156:3000/api/admin", {
             method: "GET",
             headers: {
                 Authorization: `Bearer ${accessToken}`,

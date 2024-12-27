@@ -55,7 +55,7 @@
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/author", {
+      const res = await fetch("http://45.138.158.156:3000/api/author", {
             method: "GET",
             headers: {
                 Authorization: `Bearer ${accessToken}`,
@@ -117,7 +117,7 @@
   async function refreshTokenFunc(){
 
     try{
-      const res = await fetch("http://localhost:3000/api/author/refreshtoken" ,{
+      const res = await fetch("http://45.138.158.156:3000/api/author/refreshtoken" ,{
         method :"POST",
         headers :{
         "Content-Type":"application/json"

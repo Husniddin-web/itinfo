@@ -11,7 +11,7 @@ router.get("/", author_police, getAllAuthor)
 router.get("/nick-name", getAuthorByNickName)
 
 
-router.post("/", author_police, addAuthor)
+router.post("/", addAuthor)
 
 
 router.post("/login", loginAuthor)
