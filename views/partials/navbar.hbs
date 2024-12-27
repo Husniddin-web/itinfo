@@ -38,7 +38,7 @@
     localStorage.removeItem("accessToken");
 
     try {
-      const res = await fetch("http://localhost:3000/api/author/logout", {
+      const res = await fetch("http://45.138.158.156:3000/api/author/logout", {
         method: "POST",
       });
       const data = await res.json();
