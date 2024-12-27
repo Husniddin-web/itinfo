@@ -1,0 +1,746 @@
+{
+  error: ReferenceError: author is not defined
+      at Object.<anonymous> (D:\service\ITINFO\routes\topic.routes.js:19:20)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+      at Module.load (node:internal/modules/cjs/loader:1288:32)
+      at Module._load (node:internal/modules/cjs/loader:1104:12)
+      at Module.require (node:internal/modules/cjs/loader:1311:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (D:\service\ITINFO\routes\index.routes.js:18:21)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10),
+  level: 'error',
+  message: 'uncaughtException: author is not defined\n' +
+    'ReferenceError: author is not defined\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\topic.routes.js:19:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  stack: 'ReferenceError: author is not defined\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\topic.routes.js:19:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  exception: true,
+  date: 'Wed Dec 25 2024 14:49:27 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 18100,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 82173952,
+      heapTotal: 60162048,
+      heapUsed: 31030032,
+      external: 20619335,
+      arrayBuffers: 18484260
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 245401.187 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\service\\ITINFO\\routes\\topic.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1288,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1104,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\service\\ITINFO\\routes\\index.routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-25T09:49:27.530Z'
+}
+{
+  error: ReferenceError: author is not defined
+      at Object.<anonymous> (D:\service\ITINFO\routes\topic.routes.js:19:34)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+      at Module.load (node:internal/modules/cjs/loader:1288:32)
+      at Module._load (node:internal/modules/cjs/loader:1104:12)
+      at Module.require (node:internal/modules/cjs/loader:1311:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (D:\service\ITINFO\routes\index.routes.js:18:21)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10),
+  level: 'error',
+  message: 'uncaughtException: author is not defined\n' +
+    'ReferenceError: author is not defined\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\topic.routes.js:19:34)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  stack: 'ReferenceError: author is not defined\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\topic.routes.js:19:34)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  exception: true,
+  date: 'Wed Dec 25 2024 14:49:34 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 14984,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 85102592,
+      heapTotal: 58589184,
+      heapUsed: 36962880,
+      external: 20619335,
+      arrayBuffers: 18484260
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 245408.375 },
+  trace: [
+    {
+      column: 34,
+      file: 'D:\\service\\ITINFO\\routes\\topic.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1288,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1104,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\service\\ITINFO\\routes\\index.routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-25T09:49:34.719Z'
+}
+{
+  error: D:\service\ITINFO\routes\topic.routes.js:20
+  router.put("/:id", , updateTopicById)
+                     ^
+  
+  SyntaxError: Unexpected token ','
+      at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+      at Module._compile (node:internal/modules/cjs/loader:1428:41)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+      at Module.load (node:internal/modules/cjs/loader:1288:32)
+      at Module._load (node:internal/modules/cjs/loader:1104:12)
+      at Module.require (node:internal/modules/cjs/loader:1311:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (D:\service\ITINFO\routes\index.routes.js:18:21)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ','\n" +
+    'D:\\service\\ITINFO\\routes\\topic.routes.js:20\n' +
+    'router.put("/:id", , updateTopicById)\n' +
+    '                   ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  stack: 'D:\\service\\ITINFO\\routes\\topic.routes.js:20\n' +
+    'router.put("/:id", , updateTopicById)\n' +
+    '                   ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  exception: true,
+  date: 'Wed Dec 25 2024 16:32:39 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 5060,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 84701184,
+      heapTotal: 58589184,
+      heapUsed: 36618320,
+      external: 20619335,
+      arrayBuffers: 18483587
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 251593.015 },
+  trace: [
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1378,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1428,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1288,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1104,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\service\\ITINFO\\routes\\index.routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-25T11:32:39.357Z'
+}
+{
+  error: D:\service\ITINFO\routes\topic.routes.js:20
+  router.put("/:id", , updateTopicById)
+                     ^
+  
+  SyntaxError: Unexpected token ','
+      at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+      at Module._compile (node:internal/modules/cjs/loader:1428:41)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+      at Module.load (node:internal/modules/cjs/loader:1288:32)
+      at Module._load (node:internal/modules/cjs/loader:1104:12)
+      at Module.require (node:internal/modules/cjs/loader:1311:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (D:\service\ITINFO\routes\index.routes.js:18:21)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ','\n" +
+    'D:\\service\\ITINFO\\routes\\topic.routes.js:20\n' +
+    'router.put("/:id", , updateTopicById)\n' +
+    '                   ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  stack: 'D:\\service\\ITINFO\\routes\\topic.routes.js:20\n' +
+    'router.put("/:id", , updateTopicById)\n' +
+    '                   ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:18:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  exception: true,
+  date: 'Wed Dec 25 2024 16:32:41 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 15892,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 84852736,
+      heapTotal: 58589184,
+      heapUsed: 36611296,
+      external: 20619335,
+      arrayBuffers: 18483587
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 251595 },
+  trace: [
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1378,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1428,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1288,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1104,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'D:\\service\\ITINFO\\routes\\index.routes.js',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-25T11:32:41.343Z'
+}
+{
+  error: D:\service\ITINFO\routes\author.routes.js:14
+  router.post("/", ,addAuthor)
+                   ^
+  
+  SyntaxError: Unexpected token ','
+      at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+      at Module._compile (node:internal/modules/cjs/loader:1428:41)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+      at Module.load (node:internal/modules/cjs/loader:1288:32)
+      at Module._load (node:internal/modules/cjs/loader:1104:12)
+      at Module.require (node:internal/modules/cjs/loader:1311:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (D:\service\ITINFO\routes\index.routes.js:12:22)
+      at Module._compile (node:internal/modules/cjs/loader:1469:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1548:10),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ','\n" +
+    'D:\\service\\ITINFO\\routes\\author.routes.js:14\n' +
+    'router.post("/", ,addAuthor)\n' +
+    '                 ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:12:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  stack: 'D:\\service\\ITINFO\\routes\\author.routes.js:14\n' +
+    'router.post("/", ,addAuthor)\n' +
+    '                 ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1378:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1428:41)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1288:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1104:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1311:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (D:\\service\\ITINFO\\routes\\index.routes.js:12:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1469:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)',
+  exception: true,
+  date: 'Thu Dec 26 2024 03:38:44 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 10996,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 77860864,
+      heapTotal: 57802752,
+      heapUsed: 27335624,
+      external: 20607758,
+      arrayBuffers: 18446032
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 291558.593 },
+  trace: [
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1378,
+      method: null,
+      native: false
+    },
+    {
+      column: 41,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1428,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1288,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1104,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1311,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 22,
+      file: 'D:\\service\\ITINFO\\routes\\index.routes.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1469,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1548,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-25T22:38:44.934Z'
+}

@@ -1,0 +1,120 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Status</th>
+      <th scope="col">Role</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+  </tbody>
+</table>
+
+
+<script>
+let accessToken = localStorage.getItem("accessToken");
+
+document.addEventListener("DOMContentLoaded", () => {
+    if (!accessToken) {
+        window.location.replace("/login");
+    }
+    getAdmin();
+});
+
+function getTokenExpiration(token) {
+    const decodedToken = JSON.parse(atob(token.split(".")[1]));
+    if (decodedToken.exp) {
+        return new Date(decodedToken.exp * 1000);
+    }
+    return null;
+}
+
+async function refreshTokenFunc() {
+    try {
+        const res = await fetch("http://localhost:3000/api/admin/refreshtoken", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
+        const data = await res.json();
+
+        if (data.message && data.message == "jwt expired") {
+            localStorage.removeItem("accessToken");
+            window.location.replace("/login");
+        }
+
+        localStorage.setItem("accessToken", data.accessToken);
+        return data.accessToken;
+    } catch (error) {
+        console.log("Error", error);
+    }
+}
+
+async function getAdmin() {
+    try {
+        const tokenExpiration = getTokenExpiration(accessToken);
+        if (tokenExpiration && new Date() > tokenExpiration) {
+            console.log("Token expired, refreshing...");
+            accessToken = await refreshTokenFunc();  // Refresh the token
+        }
+
+        const res = await fetch("http://localhost:3000/api/admin", {
+            method: "GET",
+            headers: {
+                Authorization: `Bearer ${accessToken}`,
+                "Content-Type": "application/json"
+            },
+            mode: "cors"
+        });
+
+        if(!res.ok){
+            return errorForbidden()
+        }
+
+        const data = await res.json();
+        console.log(data); 
+        populateTable(data);
+
+    } catch (error) {
+        console.log("Error fetching admin data", error);
+    }
+}
+
+function errorForbidden() {
+    const tbody = document.querySelector("tbody");
+
+    const errorRow = document.createElement("tr");
+    const errorMessageCell = document.createElement("td");
+
+    errorMessageCell.colSpan = 5; 
+    errorMessageCell.innerHTML = `<div class="alert alert-danger mb-0" role="alert">
+                                    Access Forbidden: You do not have permission to view this content.
+                                  </div>`;
+
+    tbody.appendChild(errorRow);
+    errorRow.appendChild(errorMessageCell);
+}
+
+
+function populateTable(data) {
+    const tbody = document.querySelector("tbody");
+
+    data.forEach(item => {
+        const row = document.createElement("tr");
+     row.innerHTML = `
+            <td>${item.name}</td>
+            <td>${item.email}</td>
+            <td>${item.phone}</td>
+            <td><span class="badge ${item.is_active ? 'bg-success' : 'bg-danger'}">${item.is_active ? 'Active' : 'Inactive'}</span></td>
+            <td><span class="badge ${item.is_creator ? 'bg-info' : 'bg-secondary'}">${item.is_creator ? 'Creator' : 'Author'}</span></td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+
+</script>

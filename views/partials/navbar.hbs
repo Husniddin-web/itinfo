@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">IT INFO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link {{#if isDict}} active {{/if}}" aria-current="page" href="/dictionary">Dictionary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{#if isTopic}} active {{/if}}" aria-current="page" href="/topic">Topics</a>
+        </li>
+
+        <li class="nav-item" id="authorsLink" style="display: none;">
+          <a class="nav-link {{#if isAuthor}} active {{/if}}" aria-current="page" href="/author">Authors</a>
+        </li>
+        <li class="nav-item" id="addAuthorLink" style="display: none;">
+          <a class="nav-link {{#if isRegister}} active {{/if}}" aria-current="page" href="/register">Add Author</a>
+        </li>
+        
+        <li class="nav-item" id="adminsLink" style="display: none;">
+          <a class="nav-link {{#if isAdmin}} active {{/if}}" aria-current="page" href="/admin">Admins</a>
+        </li>
+      </ul>
+      <div class="login-wrapper" id="lgwr"></div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const token = localStorage.getItem("accessToken");
+  const logginWrapper = document.getElementById("lgwr");
+
+  // Function to log the user out
+  async function logoutUser() {
+    localStorage.removeItem("accessToken");
+
+    try {
+      const res = await fetch("http://localhost:3000/api/author/logout", {
+        method: "POST",
+      });
+      const data = await res.json();
+      window.location.reload();
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  function isUserLoggedIn() {
+    const token = localStorage.getItem("accessToken");
+    return !!token; 
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const isLoggedIn = isUserLoggedIn();
+
+    if (isLoggedIn) {
+      document.getElementById("authorsLink").style.display = "block";
+      document.getElementById("addAuthorLink").style.display = "block";
+      document.getElementById("adminsLink").style.display = "block";
+
+      logginWrapper.innerHTML = `<a class="btn btn-warning" id="logout" aria-current="page">Logout</a>`;
+      document.getElementById("logout").addEventListener("click", () => {
+        logoutUser();
+      });
+    } else {
+      logginWrapper.innerHTML = `<a class="btn btn-success" id="login" aria-current="page" href="/login">Login</a>`;
+
+      document.getElementById("authorsLink").style.display = "none";
+      document.getElementById("addAuthorLink").style.display = "none";
+      document.getElementById("adminsLink").style.display = "none";
+    }
+  });
+</script>

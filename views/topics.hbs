@@ -1,0 +1,80 @@
+<style>
+  #topicWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .card {
+    background-color: antiquewhite;
+    width: 18rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .card-body {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+</style>
+
+<div class="wrapper">
+  <ul id="topicWrapper">
+    <h1 style="text-align: center;">Loading....</h1>
+  </ul>
+</div>
+
+<script>
+  async function getTopics() {
+    const wrapper = document.getElementById("topicWrapper");
+    try {
+      const res = await fetch("http://localhost:3000/api/topic", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        mode: "cors"
+      }); 
+      if (res.ok) {
+        const data = await res.json();
+        console.log(data);
+        wrapper.innerHTML = "";
+        data.forEach((topic) => {
+          const li = document.createElement("li");
+          li.classList.add("card");
+          li.innerHTML = `
+            <div style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">${topic.topic_title || "No Title"}</h5>
+                <p class="card-text">
+                  <strong>Text:</strong> ${topic.topic_text || "No Text Provided"}<br />
+                  <strong>Checked:</strong> ${topic.is_checked ? "Yes" : "No"}<br />
+                  <strong>Approved:</strong> ${topic.is_approved ? "Yes" : "No"}<br />
+                </p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          `;
+          wrapper.appendChild(li);
+        });
+      } else {
+        const error = await res.json();
+        console.log(error);
+        wrapper.innerHTML = `<h1>Failed to fetch topics</h1>`;
+      }
+    } catch (error) {
+      console.log("Error fetching data:", error);
+      wrapper.innerHTML = `<h1>Error occurred while fetching data</h1>`;
+    }
+  }
+
+  getTopics();
+</script>

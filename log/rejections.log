@@ -1,0 +1,152 @@
+{
+  error: Error: unhandledRejection example
+      at D:\service\ITINFO\controllers\author.controller.js:99:20
+      at new Promise (<anonymous>)
+      at loginAuthor (D:\service\ITINFO\controllers\author.controller.js:98:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'unhandledRejection: unhandledRejection example\n' +
+    'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Mon Dec 23 2024 16:28:10 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 19000,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 65286144,
+      heapTotal: 27017216,
+      heapUsed: 24944152,
+      external: 20668280,
+      arrayBuffers: 18296409
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 78524.421 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: null,
+      line: 99,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: 'loginAuthor',
+      line: 98,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-23T11:28:10.760Z'
+}
+{
+  error: Error: unhandledRejection example
+      at D:\service\ITINFO\controllers\author.controller.js:99:20
+      at new Promise (<anonymous>)
+      at loginAuthor (D:\service\ITINFO\controllers\author.controller.js:98:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'unhandledRejection: unhandledRejection example\n' +
+    'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Mon Dec 23 2024 16:36:42 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 3540,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 63066112,
+      heapTotal: 26755072,
+      heapUsed: 24453272,
+      external: 20666571,
+      arrayBuffers: 18296748
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 79036.093 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: null,
+      line: 99,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: 'loginAuthor',
+      line: 98,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-23T11:36:42.434Z'
+}

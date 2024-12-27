@@ -1,0 +1,1141 @@
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:13:27.667Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:13:27.673Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:13:27.674Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:16:34.608Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:16:34.615Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:16:34.615Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:16:38.168Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:16:38.174Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:16:38.177Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:16:40.260Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:16:40.266Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:16:40.267Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:16:56.721Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:16:56.727Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:16:56.728Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:17:30.432Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:17:30.440Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:17:30.442Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:17:33.247Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:17:33.257Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:17:33.257Z'
+}
+{
+  message: 'Error malumot',
+  level: 'error',
+  timestamp: '2024-12-23T11:17:42.993Z'
+}
+{
+  message: 'Warning',
+  level: 'warn',
+  timestamp: '2024-12-23T11:17:42.999Z'
+}
+{
+  message: 'Info',
+  level: 'info',
+  timestamp: '2024-12-23T11:17:42.999Z'
+}
+{
+  message: "Expected ',' or '}' after property value in JSON at position 133",
+  level: 'error',
+  timestamp: '2024-12-23T11:20:25.173Z'
+}
+{
+  errorResponse: {
+    index: 0,
+    code: 11000,
+    errmsg: 'E11000 duplicate key error collection: itinfo.authors index: nick_name_1 dup key: { nick_name: "nodirdev" }',
+    keyPattern: { nick_name: 1 },
+    keyValue: { nick_name: 'nodirdev' }
+  },
+  index: 0,
+  code: 11000,
+  keyPattern: { nick_name: 1 },
+  keyValue: { nick_name: 'nodirdev' },
+  level: 'error',
+  timestamp: '2024-12-23T11:27:24.733Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  error: Error: unhandledRejection example
+      at D:\service\ITINFO\controllers\author.controller.js:99:20
+      at new Promise (<anonymous>)
+      at loginAuthor (D:\service\ITINFO\controllers\author.controller.js:98:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'unhandledRejection: unhandledRejection example\n' +
+    'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Mon Dec 23 2024 16:28:10 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 19000,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 65286144,
+      heapTotal: 27017216,
+      heapUsed: 24944152,
+      external: 20668280,
+      arrayBuffers: 18296409
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 78524.421 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: null,
+      line: 99,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: 'loginAuthor',
+      line: 98,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-23T11:28:10.760Z'
+}
+{
+  error: Error: unhandledRejection example
+      at D:\service\ITINFO\controllers\author.controller.js:99:20
+      at new Promise (<anonymous>)
+      at loginAuthor (D:\service\ITINFO\controllers\author.controller.js:98:9)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: 'unhandledRejection: unhandledRejection example\n' +
+    'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: 'Error: unhandledRejection example\n' +
+    '    at D:\\service\\ITINFO\\controllers\\author.controller.js:99:20\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at loginAuthor (D:\\service\\ITINFO\\controllers\\author.controller.js:98:9)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  rejection: true,
+  date: 'Mon Dec 23 2024 16:36:42 GMT+0500 (Uzbekistan Standard Time)',
+  process: {
+    pid: 3540,
+    uid: null,
+    gid: null,
+    cwd: 'D:\\service\\ITINFO',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.17.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'D:\\service\\ITINFO\\app'
+    ],
+    memoryUsage: {
+      rss: 63066112,
+      heapTotal: 26755072,
+      heapUsed: 24453272,
+      external: 20666571,
+      arrayBuffers: 18296748
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 79036.093 },
+  trace: [
+    {
+      column: 20,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: null,
+      line: 99,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'D:\\service\\ITINFO\\controllers\\author.controller.js',
+      function: 'loginAuthor',
+      line: 98,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-23T11:36:42.434Z'
+}
+{
+  message: "Expected ',' or '}' after property value in JSON at position 282",
+  level: 'error',
+  timestamp: '2024-12-24T10:33:21.927Z'
+}
+{
+  errorResponse: {
+    index: 0,
+    code: 11000,
+    errmsg: 'E11000 duplicate key error collection: itinfo.authors index: nick_name_1 dup key: { nick_name: "Alikocha" }',
+    keyPattern: { nick_name: 1 },
+    keyValue: { nick_name: 'Alikocha' }
+  },
+  index: 0,
+  code: 11000,
+  keyPattern: { nick_name: 1 },
+  keyValue: { nick_name: 'Alikocha' },
+  level: 'error',
+  timestamp: '2024-12-24T16:03:32.215Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  _original: { term: '2as' },
+  details: [
+    {
+      message: '"term" length must be at least 4 characters long',
+      path: [ 'term' ],
+      type: 'string.min',
+      context: {
+        limit: 4,
+        value: '2as',
+        encoding: undefined,
+        label: 'term',
+        key: 'term'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-24T16:12:45.574Z'
+}
+{
+  _original: { term: 'API' },
+  details: [
+    {
+      message: '"term" length must be at least 4 characters long',
+      path: [ 'term' ],
+      type: 'string.min',
+      context: {
+        limit: 4,
+        value: 'API',
+        encoding: undefined,
+        label: 'term',
+        key: 'term'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-24T16:12:56.102Z'
+}
+{
+  message: '"[object Object]" is not valid JSON',
+  level: 'error',
+  timestamp: '2024-12-25T11:55:13.328Z'
+}
+{
+  message: '"[object Object]" is not valid JSON',
+  level: 'error',
+  timestamp: '2024-12-25T11:56:10.245Z'
+}
+{
+  message: '"[object Object]" is not valid JSON',
+  level: 'error',
+  timestamp: '2024-12-25T11:57:32.102Z'
+}
+{
+  message: '"[object Object]" is not valid JSON',
+  level: 'error',
+  timestamp: '2024-12-25T12:01:31.538Z'
+}
+{
+  _original: {
+    first_name: '',
+    last_name: '',
+    nick_name: '',
+    email: '',
+    phone: '',
+    password: '',
+    info: '',
+    position: '',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"first_name" is not allowed to be empty',
+      path: [ 'first_name' ],
+      type: 'string.empty',
+      context: { label: 'first_name', value: '', key: 'first_name' }
+    },
+    {
+      message: '"last_name" is not allowed to be empty',
+      path: [ 'last_name' ],
+      type: 'string.empty',
+      context: { label: 'last_name', value: '', key: 'last_name' }
+    },
+    {
+      message: '"nick_name" is not allowed to be empty',
+      path: [ 'nick_name' ],
+      type: 'string.empty',
+      context: { label: 'nick_name', value: '', key: 'nick_name' }
+    },
+    {
+      message: '"password" is not allowed to be empty',
+      path: [ 'password' ],
+      type: 'string.empty',
+      context: { label: 'password', value: '', key: 'password' }
+    },
+    {
+      message: '"email" is not allowed to be empty',
+      path: [ 'email' ],
+      type: 'string.empty',
+      context: { label: 'email', value: '', key: 'email' }
+    },
+    {
+      message: '"phone" is not allowed to be empty',
+      path: [ 'phone' ],
+      type: 'string.empty',
+      context: { label: 'phone', value: '', key: 'phone' }
+    },
+    {
+      message: '"position" is not allowed to be empty',
+      path: [ 'position' ],
+      type: 'string.empty',
+      context: { label: 'position', value: '', key: 'position' }
+    },
+    {
+      message: '"info" is not allowed to be empty',
+      path: [ 'info' ],
+      type: 'string.empty',
+      context: { label: 'info', value: '', key: 'info' }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:16:08.625Z'
+}
+{
+  _original: {
+    first_name: '',
+    last_name: '',
+    nick_name: '',
+    email: '',
+    phone: '',
+    password: '',
+    info: '',
+    position: '',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"first_name" is not allowed to be empty',
+      path: [ 'first_name' ],
+      type: 'string.empty',
+      context: { label: 'first_name', value: '', key: 'first_name' }
+    },
+    {
+      message: '"last_name" is not allowed to be empty',
+      path: [ 'last_name' ],
+      type: 'string.empty',
+      context: { label: 'last_name', value: '', key: 'last_name' }
+    },
+    {
+      message: '"nick_name" is not allowed to be empty',
+      path: [ 'nick_name' ],
+      type: 'string.empty',
+      context: { label: 'nick_name', value: '', key: 'nick_name' }
+    },
+    {
+      message: '"password" is not allowed to be empty',
+      path: [ 'password' ],
+      type: 'string.empty',
+      context: { label: 'password', value: '', key: 'password' }
+    },
+    {
+      message: '"email" is not allowed to be empty',
+      path: [ 'email' ],
+      type: 'string.empty',
+      context: { label: 'email', value: '', key: 'email' }
+    },
+    {
+      message: '"phone" is not allowed to be empty',
+      path: [ 'phone' ],
+      type: 'string.empty',
+      context: { label: 'phone', value: '', key: 'phone' }
+    },
+    {
+      message: '"position" is not allowed to be empty',
+      path: [ 'position' ],
+      type: 'string.empty',
+      context: { label: 'position', value: '', key: 'position' }
+    },
+    {
+      message: '"info" is not allowed to be empty',
+      path: [ 'info' ],
+      type: 'string.empty',
+      context: { label: 'info', value: '', key: 'info' }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:16:34.143Z'
+}
+{
+  _original: {
+    first_name: '',
+    last_name: '',
+    nick_name: '',
+    email: '',
+    phone: '',
+    password: '',
+    info: '',
+    position: '',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"first_name" is not allowed to be empty',
+      path: [ 'first_name' ],
+      type: 'string.empty',
+      context: { label: 'first_name', value: '', key: 'first_name' }
+    },
+    {
+      message: '"last_name" is not allowed to be empty',
+      path: [ 'last_name' ],
+      type: 'string.empty',
+      context: { label: 'last_name', value: '', key: 'last_name' }
+    },
+    {
+      message: '"nick_name" is not allowed to be empty',
+      path: [ 'nick_name' ],
+      type: 'string.empty',
+      context: { label: 'nick_name', value: '', key: 'nick_name' }
+    },
+    {
+      message: '"password" is not allowed to be empty',
+      path: [ 'password' ],
+      type: 'string.empty',
+      context: { label: 'password', value: '', key: 'password' }
+    },
+    {
+      message: '"email" is not allowed to be empty',
+      path: [ 'email' ],
+      type: 'string.empty',
+      context: { label: 'email', value: '', key: 'email' }
+    },
+    {
+      message: '"phone" is not allowed to be empty',
+      path: [ 'phone' ],
+      type: 'string.empty',
+      context: { label: 'phone', value: '', key: 'phone' }
+    },
+    {
+      message: '"position" is not allowed to be empty',
+      path: [ 'position' ],
+      type: 'string.empty',
+      context: { label: 'position', value: '', key: 'position' }
+    },
+    {
+      message: '"info" is not allowed to be empty',
+      path: [ 'info' ],
+      type: 'string.empty',
+      context: { label: 'info', value: '', key: 'info' }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:18:39.526Z'
+}
+{
+  _original: {
+    first_name: '',
+    last_name: '',
+    nick_name: '',
+    email: '',
+    phone: '',
+    password: '',
+    info: '',
+    position: '',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"first_name" is not allowed to be empty',
+      path: [ 'first_name' ],
+      type: 'string.empty',
+      context: { label: 'first_name', value: '', key: 'first_name' }
+    },
+    {
+      message: '"last_name" is not allowed to be empty',
+      path: [ 'last_name' ],
+      type: 'string.empty',
+      context: { label: 'last_name', value: '', key: 'last_name' }
+    },
+    {
+      message: '"nick_name" is not allowed to be empty',
+      path: [ 'nick_name' ],
+      type: 'string.empty',
+      context: { label: 'nick_name', value: '', key: 'nick_name' }
+    },
+    {
+      message: '"password" is not allowed to be empty',
+      path: [ 'password' ],
+      type: 'string.empty',
+      context: { label: 'password', value: '', key: 'password' }
+    },
+    {
+      message: '"email" is not allowed to be empty',
+      path: [ 'email' ],
+      type: 'string.empty',
+      context: { label: 'email', value: '', key: 'email' }
+    },
+    {
+      message: '"phone" is not allowed to be empty',
+      path: [ 'phone' ],
+      type: 'string.empty',
+      context: { label: 'phone', value: '', key: 'phone' }
+    },
+    {
+      message: '"position" is not allowed to be empty',
+      path: [ 'position' ],
+      type: 'string.empty',
+      context: { label: 'position', value: '', key: 'position' }
+    },
+    {
+      message: '"info" is not allowed to be empty',
+      path: [ 'info' ],
+      type: 'string.empty',
+      context: { label: 'info', value: '', key: 'info' }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:19:12.764Z'
+}
+{
+  _original: {
+    first_name: 'axavxjhvjasjxhvas',
+    last_name: 'xabxajkxbakxbas',
+    nick_name: 'xasbxjasbxaxbaskx',
+    email: 'axbasjkxbaskxjsb@gmai',
+    phone: '88-100-90-80',
+    password: 'amjasjkbaxkjabsxka',
+    info: 'xabxhjsbsjbkajxs',
+    position: 'xavxahxajxs',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"email" must be a valid email',
+      path: [ 'email' ],
+      type: 'string.email',
+      context: {
+        value: 'axbasjkxbaskxjsb@gmai',
+        invalids: [ 'axbasjkxbaskxjsb@gmai' ],
+        label: 'email',
+        key: 'email'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:23:26.211Z'
+}
+{
+  _original: {
+    first_name: 'xasjbxaskjxajksx',
+    last_name: 'xbaskjxba',
+    nick_name: 'xa',
+    email: 'xas@gmail.com',
+    phone: '8881070125',
+    password: 'xaxxasx',
+    info: 'xaxas',
+    position: 'asx',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T12:31:23.318Z'
+}
+{
+  stringValue: '"{}"',
+  messageFormat: undefined,
+  kind: 'string',
+  value: {},
+  path: 'email',
+  reason: null,
+  valueType: 'Object',
+  level: 'error',
+  timestamp: '2024-12-25T21:30:33.020Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:49:55.830Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:50:03.146Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:50:26.045Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:50:36.657Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:50:46.401Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:50:47.860Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:51:17.896Z'
+}
+{
+  message: 'Parse error on line 13:\n' +
+    '...-link {{#if isTopic && isUserLoggedIn() \n' +
+    '-----------------------^\n' +
+    "Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'EQUALS', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'INVALID'",
+  level: 'error',
+  timestamp: '2024-12-25T21:51:19.315Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaxasxaxxs',
+    email: 'xasxasx@gmail.com',
+    phone: '8881070125',
+    password: 'xasasxaxasx',
+    info: 'xasxsa',
+    position: 'xa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:17:11.282Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaxasxaxxs',
+    email: 'xasxasx@gmail.com',
+    phone: '8881070125',
+    password: 'xasasxaxasx',
+    info: 'xasxsa',
+    position: 'xa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:17:52.744Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaasxax',
+    email: 'xaxasxa@gmail.com',
+    phone: '8881070125',
+    password: 'xasaxaxs',
+    info: 'asxasx',
+    position: 'xasxsaxa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:18:19.453Z'
+}
+{
+  _original: {
+    first_name: 'xassaxa',
+    last_name: 'xaxasx',
+    nick_name: 'xasxas',
+    email: 'xasxaxasx@gmail.com',
+    phone: 'xaxsax',
+    password: 'xasxasxsa',
+    info: 'xasxasxxas',
+    position: 'xasxa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "xaxsax" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: 'xaxsax',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:18:57.518Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaxasx',
+    email: 'ccd@gmail.com',
+    phone: '8881070125',
+    password: 'xasasxax',
+    info: 'xasasxsaxsa',
+    position: 'xasaxa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:21:52.768Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaxasx',
+    email: 'ccd@gmail.com',
+    phone: '888-107-00-10',
+    password: 'xasasxax',
+    info: 'xasasxsaxsa',
+    position: 'xasaxa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "888-107-00-10" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '888-107-00-10',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:22:10.931Z'
+}
+{
+  _original: {
+    first_name: 'Husniddin',
+    last_name: 'Salohiddinov',
+    nick_name: 'xaxasxxaaxsa',
+    email: 'ccd@gmail.com',
+    phone: '888-107-00-10',
+    password: 'xasasxax',
+    info: 'xasasxsaxsa',
+    position: 'xasaxa',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "888-107-00-10" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '888-107-00-10',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:22:21.074Z'
+}
+{
+  _original: {
+    first_name: 'xasasx',
+    last_name: 'xaxasx',
+    nick_name: 'xasasxs',
+    email: 'xaxasxsa@gmailcom.com',
+    phone: '8881070125',
+    password: 'xaxasxasx',
+    info: 'xasxasxasx',
+    position: 'xaxas',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:23:28.898Z'
+}
+{
+  _original: {
+    first_name: 'xaasxax',
+    last_name: 'xaaxasxas',
+    nick_name: 'xaasxqw',
+    email: 'xaxas@gmail.com',
+    phone: '8881070125',
+    password: 'xaaxas',
+    info: 'xaabkj',
+    position: 'xaxas',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:25:13.525Z'
+}
+{
+  _original: {
+    first_name: 'xaasxax',
+    last_name: 'xaaxasxas',
+    nick_name: 'xaasxqw',
+    email: 'xaxas@gmail.com',
+    phone: '88-100-10-1',
+    password: 'xaaxas',
+    info: 'xaabkj',
+    position: 'xaxas',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"phone" with value "88-100-10-1" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '88-100-10-1',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:26:39.873Z'
+}
+{
+  _original: {
+    first_name: 'xaasxasx',
+    last_name: 'xaasx',
+    nick_name: 'xaxasxas',
+    email: 'xasxas@gmail.com',
+    phone: '8881070125',
+    password: 'xaaxaxas',
+    info: 'xaxas',
+    position: 'xaas',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:28:47.004Z'
+}
+{
+  _original: {
+    first_name: 'xaa',
+    last_name: 'xaxasx',
+    nick_name: 'xaax',
+    email: 'xaxas@mgailc.om',
+    phone: '8881070125',
+    password: 'xaasxa',
+    info: 'xaxas',
+    position: 'xaxas',
+    is_expert: true
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:31:30.524Z'
+}
+{
+  _original: {
+    first_name: 'abkjbcakjs',
+    last_name: 'casjbcakcb',
+    nick_name: 'asxsabjkxabkxa',
+    email: 'husniddinsalohiddinov197@gmail.com',
+    phone: '8881070125',
+    password: 'qwerty',
+    info: 'xaaxasxsa',
+    position: 'xaxasx',
+    is_expert: false
+  },
+  details: [
+    {
+      message: '"phone" with value "8881070125" fails to match the required pattern: /^\\d{2}-\\d{3}-\\d{2}-\\d{2}$/',
+      path: [ 'phone' ],
+      type: 'string.pattern.base',
+      context: {
+        name: undefined,
+        regex: /^\d{2}-\d{3}-\d{2}-\d{2}$/,
+        value: '8881070125',
+        label: 'phone',
+        key: 'phone'
+      }
+    }
+  ],
+  level: 'error',
+  timestamp: '2024-12-25T22:32:11.079Z'
+}

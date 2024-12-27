@@ -1,0 +1,148 @@
+<style>
+  #authorWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+</style>
+<div class="wrapper">
+  <ul id="authorWrapper">
+    <h1>Loading....</h1>
+  </ul>
+</div>
+
+<script>
+  async function getAuthors() {
+
+    const wrapper = document.getElementById("authorWrapper");
+
+    let accessToken = localStorage.getItem("accessToken")
+
+    if(!accessToken){
+      return window.location.replace("/login")
+    }
+
+
+    console.log(accessToken) // access token
+
+    const accessExpTime = getTokenExpiration(accessToken)
+
+
+    console.log(accessExpTime)
+
+    if(accessExpTime){
+
+      const currentTime = new Date()
+
+      if(currentTime <  accessExpTime){
+
+        console.log("access token faol")
+
+      }else{
+
+        console.log("access token voqt chiqib ketti")
+
+        accessToken = await refreshTokenFunc()
+
+        console.log("New access Tokne", accessToken)
+
+      }
+    }
+
+    try {
+      const res = await fetch("http://localhost:3000/api/author", {
+            method: "GET",
+            headers: {
+                Authorization: `Bearer ${accessToken}`,
+                "Content-Type": "application/json"
+            },
+            mode: "cors" // keyin organamiz
+        }); 
+      if (res.ok) {
+        const data = await res.json();
+        console.log(data);
+        wrapper.innerHTML=""
+        data.forEach((author) => {
+          const li = document.createElement("li");
+          li.classList.add("card")
+          li.innerHTML = `
+            <div class="" style="width: 18rem;">
+              <img src="./images/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" class="card-img-top" alt="Author Photo" />
+              <div class="card-body">
+                <h5 class="card-title">${author.first_name} ${author.last_name}</h5>
+                <p class="card-text">
+                  <strong>Nickname:</strong> ${author.nick_name || 'N/A'}<br />
+                  <strong>Email:</strong> ${author.email}<br />
+                  <strong>Phone:</strong> ${author.phone || 'N/A'}<br />
+                  <strong>Info:</strong> ${author.info || 'No information provided'}<br />
+                  <strong>Position:</strong> ${author.position || 'Unknown'}
+                </p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+              </div>
+            </div>
+          `;
+          wrapper.appendChild(li);
+        });
+      } else {
+        const error = await res.json()
+        console.log(error)
+        wrapper.innerHTML = `<h1>Unauthorizated</h1>`;
+      }
+    } catch (error) {
+      console.log("Error fetching data:", error);
+    }
+  }
+
+
+  function getTokenExpiration(token){
+
+    const decodedToken = JSON.parse(atob(token.split(".")[1]))
+
+    if(decodedToken.exp){
+
+      return new Date(decodedToken.exp *1000)
+
+    }
+
+    return null
+
+
+  }
+
+  async function refreshTokenFunc(){
+
+    try{
+      const res = await fetch("http://localhost:3000/api/author/refreshtoken" ,{
+        method :"POST",
+        headers :{
+        "Content-Type":"application/json"
+        }
+      })
+      const data =  await res.json()
+
+      if(data.message && data.message == "jwt expired"){
+        localStorage.removeItem("accessToken")
+        return window.location.replace("/login")
+
+      }
+
+      console.log(data)
+
+      localStorage.setItem("accessToken", data.accessToken)
+
+      return data.accessToken
+
+
+
+    }catch(error){
+      console.log("Error")
+    }
+  }
+
+  getAuthors();
+</script>
